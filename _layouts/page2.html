@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+
+<!DOCTYPE html>
+
+<html>
+  <article id="main">
+
+    <header>
+      <h2>{{ page.title }}</h2>
+      <p>hi</p>
+    </header>
+  
+    <section class="wrapper style5">
+      <div class="inner">
+        {{ content }}
+      </div>
+    </section>
+  
+  </article>
+  {% include head.html %}
+
+  <body>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+      {% include scripts.html %}
+
+    </div>
+
+  </body>
+
+</html>
