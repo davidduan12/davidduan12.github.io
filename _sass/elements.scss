@@ -5,7 +5,6 @@
 	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
 	border-radius: 3px;
 	text-decoration: none;
-	background: $white;
 	color: $color_shark;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
@@ -24,49 +23,49 @@
 	@extend %btnextend;
 	&.btn-success {
       background-color: $success;
-      color: $white;
+      color: rgba(238, 226, 220,0.85);
       border-color: $success;
       &:visited {
-        color: $white;
+        color: rgba(238, 226, 220,0.85);
       }
       &:hover {
-        background-color: $white;
+        background-color: rgba(238, 226, 220,0.85);
         color: $success;
       }
     }
     &.btn-warning {
       background-color: $warning;
-      color: $white;
+      color: rgba(238, 226, 220,0.85);
       border-color: $warning;
       &:visited {
-        color: $white;
+        color: rgba(238, 226, 220,0.85);
       }
       &:hover {
-        background-color: $white;
+        background-color: rgba(238, 226, 220,0.85);
         color: $warning;
       }
     }
     &.btn-danger {
       background-color: $danger;
-      color: $white;
+      color:rgba(238, 226, 220,0.85);
       border-color: $danger;
       &:visited {
-        color: $white;
+        color: rgba(238, 226, 220,0.85);
       }
       &:hover {
-        background-color: $white;
+        background-color:rgba(238, 226, 220,0.85);
         color: $danger;
       }
     }
     &.btn-info {
       background-color: $info;
-      color: $white;
+      color:rgba(238, 226, 220,0.85);
       border-color: $info;
       &:visited {
-        color: $white;
+        color:rgba(238, 226, 220,0.85);
       }
       &:hover {
-        background-color: $white;
+        background-color:rgba(238, 226, 220,0.85);
         color: $info;
       }
     }
@@ -119,12 +118,12 @@ img {
 }
 .img-circle {
 	border-radius: 50%;
-	border: 3px solid $white;
+	border: 3px solid rgba(238, 226, 220,0.85);
 	height: 150px;
 	width: 150px;
 }
 .author-photo {
-    background-color: $white;
+    background-color:rgba(238, 226, 220,0.85);
 }
 .image-right {
     float: right;

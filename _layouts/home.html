@@ -13,7 +13,8 @@ layout: compress
 
     @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
     @import url('https://fonts.googleapis.com/css?family=Charmonman:400,700|Homemade+Apple');
-
+    @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Zen+Antique&display=swap');
+    
     @media only screen and (max-width: 30em) {
         header {
             margin-top: 10%;
@@ -31,12 +32,12 @@ layout: compress
     }
 
     .font {
-        font-family: 'Charmonman', cursive !important;
+        font-family: 'Kalam', cursive !important;
         opacity: 1.0;
     }
 
     .lora {
-    	font-family: 'Lora', serif !important;
+    	font-family: 'Zen Antique', serif !important;
     	font-style: italic !important;
     	opacity: 1.0;
     }
@@ -47,17 +48,25 @@ layout: compress
     }
 
     .name {
-        font-family: 'Charmonman', cursive !important;
+        font-family: 'Zen Antique', serif !important;
         margin-top: 1.0em;
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
     body {
+        display:flex; 
+    }
+    body::before{
         background-image: url("../assets/img/bg.jpg");
         background-size: cover;
+        content: "";
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
     }
-
 </style>
 
 <head>
@@ -78,18 +87,17 @@ layout: compress
                 <hr class="hr-line" style="margin-top:7px; opacity:100%">
                 <h3 class="title">
                     <p class='lora' style="font-size:1rem;font-weight:400">
-                        Computer Science, Statistics, <br>
-                        Combinatorics & Optimization <br> <br>
-                        University of Waterloo, 2022
+                        Computer Science, <br> Mathematics, <br> Statistics,<br>
+                        University of Toronto, 2026
                     </p>
                 </h3>
                 <hr class="hr-line" style="margin-bottom:7px;opacity:100%">
                 <h3 class="title" style="font-size:30px;">
-                    {% if site.github-url %}<a class="social-btn" href="http://github.com/rootofallevii" target="_blank"
+                    {% if site.github-url %}<a class="social-btn" href="http://github.com/davidduan12" target="_blank"
                         rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i></a>{% endif %}
-                    {% if site.linkedin %}<a class="social-btn" href="http://linkedin.com/in/david-duan" target="_blank"
+                    {% if site.linkedin %}<a class="social-btn" href="http://linkedin.com/in/david-ky-duan" target="_blank"
                         rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i></a>{% endif %}
-                    {% if site.email %}<a class="social-btn" href="mailto:j32duan@gmail.com" target="_blank" rel="noopener noreferrer"><i
+                    {% if site.email %}<a class="social-btn" href="mailto:davidduan04@gmail.com" target="_blank" rel="noopener noreferrer"><i
                             class="fa fa-fw fa-envelope-square"></i></a>{% endif %}
                 </h3>
 
