@@ -75,10 +75,10 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: rgba(238, 226, 220,0.85);
+	background-color: rgba(238, 232, 229, 0.9);
 	color: $color_shark;
 	z-index: 1;
-	border-radius: 3px;
+	border-radius: 20px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {

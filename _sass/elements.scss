@@ -72,7 +72,7 @@
 }
 .title .btn {
     margin: 10px;
-    @include font-rem(16);
+    @include font-rem(18);
     font-weight:300;
 }
 .post-list {
@@ -96,7 +96,7 @@ hr {
 		height: 1px;
 		opacity: .15;
 		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+		background-image: -webkit-linear-gradient(left, rgba(45, 93, 165,0.5), rgba(172, 59, 97,0.5), rgba(45, 93, 165,0.5));
 		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
 		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
 		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
@@ -118,7 +118,6 @@ img {
 }
 .img-circle {
 	border-radius: 50%;
-	border: 3px solid rgba(238, 226, 220,0.85);
 	height: 150px;
 	width: 150px;
 }
