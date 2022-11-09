@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Charmonman:400,700|Homemade+Apple');
+
+@media only screen and (max-width: 30em) {
+    .wrapper {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .content {
+        text-align: left;
+        opacity: 1.0;
+        max-width: 1100px;
+    }
+}
+
+.btn {
+    border: none;
+}
+
+td {
+    vertical-align: top
+}
+
+.disclaimer {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+#red-bold {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+#course-notes {
+    font-family: 'Lora', serif;
+}
+
+#title {
+    font-family: 'Charmonman', cursive !important;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    margin-bottom: 1.5em;
+}
+
+.home {
+    font-family: 'Charmonman', cursive !important;
+    font-size: 1.2rem;
+}
+
+.no-top-bot-margin{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.indent{
+  margin-left: 2em;
+}
+
+.expand {
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.later{
+  color: darkgray;
+}
